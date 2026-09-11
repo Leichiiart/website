@@ -8,15 +8,18 @@ menu:
   - name: home
     url: ""
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+  - name: portfolio
+    url: "portfolio"
+    icon: f0b1
   - name: archives
     url: "archives"
-    icon:
-  - name: about
-    url: "about"
-    icon:
-  - name: friend
-    url: "friend"
-    icon:
+    icon: f1fc
+  - name: games
+    url: "games"
+    icon: f11b
+  - name: behind-the-scenes
+    url: "behind-the-scenes"
+    icon: f252
 
 # friend links
 friends:
@@ -30,9 +33,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
+author: Leichii
+email: leichii.art@gmail.com
+description: "Character/Game Artist and Animator"
 # subtitle: "少女祈祷中..."
 subtitle:
   typing:
@@ -51,9 +54,9 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字符
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷中..."        # 当 typing.enable = false 时使用
+  text: "Character/Game Artist and Animator"        # 当 typing.enable = false 时使用
 
-banner: "images/banner.webp"
+banner: "banner/bannerwip.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -68,7 +71,7 @@ banner_srcset:
     - src: "images/banner.webp"
       media: "(min-width: 800px)"
 
-avatar: "avatar.webp"
+avatar: "Lei-icon.png"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -118,22 +121,24 @@ footer:
 # Sidebar
 # sidebar: right # deprecated, use sidebar.position instead
 sidebar:
-  position: right
+  position: left
   menu: true  # whether to show the sidebar menu button, ignored on mobile devices
   article:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
 social:
-  # email: mailto:xxx@gmail.com
+  email: leichii.art@gmail.com
   # github: https://github.com/yourname
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # bluesky: https://bsky.app/profile/yourname
   # facebook: https://www.facebook.com/yourname
-  # instagram: https://www.instagram.com/yourname
+  instagram: https://www.instagram.com/lei._chii
   # linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
-  # youtube: https://www.youtube.com/channel/yourname
+  youtube: https://www.youtube.com/channel/Lei_chii
+  twitch: https://www.twitch.tv/lei_chii
+  vgen: https://vgen.co/Leichii
   # vimeo: https://vimeo.com/yourname
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
@@ -170,7 +175,7 @@ tagcloud_limits: 20
 only_show_capsule_in_index: false # If you have hugo amounts of tags and categories, you can set this to true to only show the capsule in the index page for better performance
 uppercase_capsule: true # If you want to keep taxonomic capsule unchanged, please set this to false
 
-show_update_time: false # If you want to show the update time, please set this to true
+show_update_time: true # If you want to show the update time, please set this to true
 
 # Summary content
 summary:
@@ -223,7 +228,7 @@ reimu_cursor:
     pointer: ../images/cursor/reimu-cursor-pointer.png
     text: ../images/cursor/reimu-cursor-text.png
 
-icon_font: 4552607_ex15nbittbh
+icon_font: false
 
 # Font loading strategy
 # Custom Font -> Google Fonts -> Local FallBack Font
@@ -540,19 +545,19 @@ firework:
   options:
     excludeElements: ["a", "button"]
     particles:
-      - shape: circle
+      - shape: star
         move: ["emit"]
         easing: easeOutExpo
-        colors: ["var(--red-1)", "var(--red-2)", "var(--red-3)", "var(--red-4)"]
+        colors: ["#FFDBFD", "#C9BEFF", "#8494FF", "#6367FF"]
         number: 20
         duration: [1200, 1800]
         shapeOptions:
           radius: [16, 32]
-          alpha: [0.3, 0.5]
+          spikes: 4
       - shape: circle
         move: ["diffuse"]
         easing: easeOutExpo
-        colors: ["var(--red-0)"]
+        colors: ["#6367FF"]
         number: 1
         duration: [1200, 1800]
         shapeOptions:
