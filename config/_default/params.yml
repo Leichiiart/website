@@ -752,16 +752,16 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
-    --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
+    --red-0: "#9500FF"
+    --red-1: "#9452FF"
+    --red-2: "#B37CFF"
+    --red-3: "#CCAFFF"
+    --red-4: "#E3D0FF"
+    --red-5: "#F2ECFF"
+    --red-5-5: "#F6F3FF"
+    --red-6: "#F9F7FF"
+    --color-red-6-shadow: "rgba(140, 79, 255, 0.6)"
+    --color-red-3-shadow: "rgba(140, 79, 255, 0.3)"
 
     --highlight-nav: "#f5f5f5"
     --highlight-scrollbar: "#d6d6d6"
@@ -780,11 +780,12 @@ internal_theme:
     --highlight-deletion-bg: "#ffeef0"
     --highlight-addition: "#22863a"
     --highlight-addition-bg: "#f0fff4"
+    
   dark:
-    --red-4: 'rgba(255, 208, 208, 0.5)'
-    --red-5: 'rgba(255,228,228,0.15)'
-    --red-5-5: 'rgba(255,236,236,0.05)'
-    --red-6: 'rgba(255, 243, 243, 0.2)'
+    --red-4: "rgba(213, 209, 255, 0.5)"
+    --red-5: "rgba(227, 231, 255, 0.15)"
+    --red-5-5: "rgba(240, 232, 255, 0.05)"
+    --red-6: "rgba(243, 242, 255, 0.2)"
 
     --highlight-nav: "#222830"
     --highlight-scrollbar: "#454d59"
