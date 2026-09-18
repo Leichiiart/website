@@ -1,5 +1,5 @@
 ---
-title: games
+title: Games
 description: games I've been a part of!
 
 date: 2022-06-09T20:12:52+08:00
