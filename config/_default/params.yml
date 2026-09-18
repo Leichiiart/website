@@ -11,8 +11,8 @@ menu:
   - name: portfolio
     url: "portfolio"
     icon: f0b1
-  - name: archives
-    url: "archives"
+  - name: all-works
+    url: "all-works"
     icon: f1fc
   - name: games
     url: "games"
