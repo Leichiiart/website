@@ -2,8 +2,7 @@
 title: Games
 description: games I've been a part of!
 date: 2026-01-29T20:12:52+08:00
-lastmod: 2026-10-08T20:12:52+08:00
-draft: false
+lastmod: 2026-10-07T20:12:52+08:00
 ---
 
 ## Game Jams I've been a part of:
