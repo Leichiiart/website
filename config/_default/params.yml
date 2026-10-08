@@ -15,7 +15,7 @@ menu:
     url: "all-works"
     icon: f1fc
   - name: games
-    url: "games"
+    url: games
     icon: f11b
   - name: behind-the-scenes
     url: "behind-the-scenes"
