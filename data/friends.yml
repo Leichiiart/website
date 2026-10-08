@@ -1,0 +1,18 @@
+- name: Dino Dollar Dash
+  url: https://leichii.itch.io/dino-dollar-dash
+  desc: Run for money! Life is expensive.
+  image: https://img.itch.zone/aW1nLzMwMzI0OTA4LnBuZw==/315x250%23c/XD4RTt.png
+  badge: AGJ2026
+  remark: made in 48 hours with a team of 5!
+- name: Exposure
+  url: https://leichii.itch.io/exposure
+  desc: Armed with only a polaroid camera, uncover the mystery of an impossible house.
+  image: https://img.itch.zone/aW1nLzI3Njk4MDk5LnBuZw==/original/eYiP71.png
+  badge: ASJ4
+  remark: made in 2 weeks with a team of 5!
+- name: Mix & Mask
+  url: https://globalgamejam.org/games/2026/mix-mask-9
+  desc: Fight your way through a dungeon by building your creature piece by piece.
+  image: https://storage-v4.globalgamejam.org/files/styles/sidebar_full/s3/games/2026/885151/featured/Thumbnail1.png?VersionId=kCC95gyQngEmZTKmD9qnqMwHF0HgbB2f&itok=aLI29sMM
+  badge: GGJ2026
+  remark: made in 48 hours with a team of 7!
