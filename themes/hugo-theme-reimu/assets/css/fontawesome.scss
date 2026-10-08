@@ -410,6 +410,18 @@
     content: "\f1d6";
   }
 }
+@if index($share-keys, "twitch") or index($social-keys, "twitch") or $triangle-badge-icon == "twitch" {
+  .icon-twitch:before {
+    font-family: var(--font-icon);
+    content: "\f1e8";
+  }
+}
+@if index($share-keys, "vgen") or index($social-keys, "vgen") or $triangle-badge-icon == "vgen" {
+  .icon-vgen:before {
+    font-family: var(--font-icon);
+    content: "\f653";
+  }
+}
 
 .icon-image:before {
   font-family: var(--font-icon);
