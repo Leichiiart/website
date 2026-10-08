@@ -1,4 +1,4 @@
-baseURL = 'https://Leichii.org/'
+baseURL = 'https://leichiiart.github.io/website/'
 languageCode = 'en'
 title = 'Leichii'
 theme = 'hugo-theme-reimu'
