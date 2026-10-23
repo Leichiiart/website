@@ -11,7 +11,7 @@ menu:
   - name: portfolio
     url: "portfolio"
     icon: f0b1
-  - name: all-works
+  - name: archives
     url: "all-works"
     icon: f1fc
   - name: games
