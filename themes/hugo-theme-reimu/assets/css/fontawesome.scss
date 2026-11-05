@@ -422,6 +422,13 @@
     content: "\f653";
   }
 }
+@if index($share-keys, "toyhouse") or index($social-keys, "toyhouse") or $triangle-badge-icon == "toyhouse" {
+  .icon-toyhouse:before {
+    font-family: var(--font-icon);
+    content: "\f015";
+  }
+}
+
 
 .icon-image:before {
   font-family: var(--font-icon);

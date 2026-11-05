@@ -11,16 +11,18 @@ menu:
   - name: portfolio
     url: "portfolio"
     icon: f0b1
-  - name: archives
-    url: "archives"
-    icon: f1fc
   - name: games
     url: "games"
     icon: f11b
   - name: behind-the-scenes
     url: "behind-the-scenes"
     icon: f252
-
+  - name: archives
+    url: "archives"
+    icon: f1fc
+  - about: about
+    url: "about"
+    icon: f007
 # friend links
 friends:
   shuffle: false  # whether to shuffle the friend links
@@ -158,6 +160,7 @@ social:
   # weixin: 
   # qq:
   # tiktok:
+  toyhouse: https://toyhou.se/Leichii
 
 widgets:
   - category
