@@ -20,9 +20,10 @@ menu:
   - name: archives
     url: "archives"
     icon: f1fc
-  - about: about
+  - name: about
     url: "about"
     icon: f007
+  
 # friend links
 friends:
   shuffle: false  # whether to shuffle the friend links
